@@ -10935,7 +10935,7 @@ hr.divider-light {
 header.masthead-1 {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://raw.githubusercontent.com/ReneFarias/landing_page_edt-sbu/main/assets/homem_e_mulher.png");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(100, 100, 100, 0.8) 100%), url("/assets/fios-cabelo.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10967,7 +10967,7 @@ header.masthead-1 h1, header.masthead-1 .h1 {
 header.masthead-2 {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://raw.githubusercontent.com/ReneFarias/landing_page_edt-sbu/main/assets/mulher.jpg");
+  background: linear-gradient(to bottom, rgba(100, 100, 100, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/assets/cabelo-caindo-homem-mulher.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10999,7 +10999,7 @@ header.masthead-2 h1, header.masthead-2 .h1 {
 header.masthead-3 {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://raw.githubusercontent.com/ReneFarias/landing_page_edt-sbu/main/assets/homem.jpg");
+  background: linear-gradient(to bottom, rgba(100, 100, 100, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/assets/homem-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11035,6 +11035,85 @@ header.masthead-3 h1, header.masthead-3 .h1 {
     font-size: 3.5rem;
   }
 }
+header.masthead-4 {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(100, 100, 100, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/assets/perda-de-fios-de-cabelo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.masthead-4 h1, header.masthead-4 .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 600px) {
+  header.masthead-4 {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 992px) {
+  header.masthead-4 {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.masthead-4 p {
+    font-size: 1.15rem;
+  }
+  header.masthead-4 h1, header.masthead-4 .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead-4 h1, header.masthead-4 .h1 {
+    font-size: 3.5rem;
+  }
+}
+header.masthead-5 {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(100, 100, 100, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/assets/quedacabelofm.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.masthead-5 h1, header.masthead-5 .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 600px) {
+  header.masthead-5 {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 992px) {
+  header.masthead-5 {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.masthead-5 p {
+    font-size: 1.15rem;
+  }
+  header.masthead-5 h1, header.masthead-5 .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead-5 h1, header.masthead-5 .h1 {
+    font-size: 3.5rem;
+  }
+}
+
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
   max-width: 1920px;
@@ -11070,4 +11149,14 @@ header.masthead-3 h1, header.masthead-3 .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+
+.card-group .card{
+  margin: 5em 0.1em 2em;
+  padding: 2em 0.8em 0.8em;
+}
+
+.card-group .card:hover{
+  opacity: 65%;
 }
