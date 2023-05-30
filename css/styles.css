@@ -10935,7 +10935,7 @@ hr.divider-light {
 header.masthead-1 {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(100, 100, 100, 0.8) 100%), url("/assets/fios-cabelo.webp");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(100, 100, 100, 0.8) 100%), url("https://raw.githubusercontent.com/ReneFarias/landing_page_edt-sbu/main/assets/fios-cabelo.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10967,7 +10967,7 @@ header.masthead-1 h1, header.masthead-1 .h1 {
 header.masthead-2 {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(100, 100, 100, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/assets/cabelo-caindo-homem-mulher.jpg");
+  background: linear-gradient(to bottom, rgba(100, 100, 100, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://raw.githubusercontent.com/ReneFarias/landing_page_edt-sbu/main/assets/cabelo-caindo-homem-mulher.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10999,7 +10999,7 @@ header.masthead-2 h1, header.masthead-2 .h1 {
 header.masthead-3 {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(100, 100, 100, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/assets/homem-1.jpg");
+  background: linear-gradient(to bottom, rgba(100, 100, 100, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://raw.githubusercontent.com/ReneFarias/landing_page_edt-sbu/main/assets/homem-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11038,7 +11038,7 @@ header.masthead-3 h1, header.masthead-3 .h1 {
 header.masthead-4 {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(100, 100, 100, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/assets/perda-de-fios-de-cabelo.jpg");
+  background: linear-gradient(to bottom, rgba(100, 100, 100, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://raw.githubusercontent.com/ReneFarias/landing_page_edt-sbu/main/assets/perda-de-fios-de-cabelo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11077,7 +11077,7 @@ header.masthead-4 h1, header.masthead-4 .h1 {
 header.masthead-5 {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(100, 100, 100, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/assets/quedacabelofm.jpg");
+  background: linear-gradient(to bottom, rgba(100, 100, 100, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://raw.githubusercontent.com/ReneFarias/landing_page_edt-sbu/main/assets/quedacabelofm.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
