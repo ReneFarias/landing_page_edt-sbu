@@ -11393,17 +11393,3 @@ header.masthead-6 h1, header.masthead-6 .h1 {
 }
 
 
-.contador1 {  
-  font-size:1em;
-  color: white;  
-  background-color: red;
-  width: 90%;
-}
-@media (min-width: 1200px) {
-  .contador1 {
-    font-size: 2em;
-    color: white;
-    background-color: red;
-    width: 50%;
-  }
-}
