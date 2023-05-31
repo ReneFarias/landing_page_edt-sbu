@@ -11391,3 +11391,10 @@ header.masthead-6 h1, header.masthead-6 .h1 {
     font-size: 10px;
   }
 }
+
+@media (min-width: 1200px) {
+  .contador {
+    font-size: 2em;
+    width: 50%;
+  }
+}

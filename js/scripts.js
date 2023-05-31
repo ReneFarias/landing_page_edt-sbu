@@ -71,3 +71,10 @@ window.onload=function() {
     }
     E[n].style.display='block';
   }
+
+  /* Assistindo Agora */
+
+let elemento = document.querySelector('#contador');
+let contador = 220;
+
+setInterval(() => elemento.innerHTML = contador++, 1500);
