@@ -11116,7 +11116,7 @@ header.masthead-5 h1, header.masthead-5 .h1 {
 header.masthead-6 {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(100, 100, 100, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://raw.githubusercontent.com/ReneFarias/landing_page_edt-sbu/main/assets/quedacabelofm.jpg");
+  background: linear-gradient(to bottom, rgba(100, 100, 100, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/https://raw.githubusercontent.com/ReneFarias/landing_page_edt-sbu/main/assets/quedacabelofm.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11354,7 +11354,7 @@ header.masthead-6 h1, header.masthead-6 .h1 {
   text-decoration: none;
   color: black;
   transition: all 0.2s ease-in-out;
-  animation: eb-fade-in-out 5s forwards;
+  animation: eb-fade-in-out 25s forwards;
   animation-delay: 1s;
   opacity: 0;
   z-index:101
@@ -11392,4 +11392,17 @@ header.masthead-6 h1, header.masthead-6 .h1 {
   }
 }
 
-
+/*.contador1 {  
+  font-size:1em;
+  color: white;  
+  background-color: red;
+  width: 90%;
+}
+@media (min-width: 1200px) {
+  .contador1 {
+    font-size: 2em;
+    color: white;
+    background-color: red;
+    width: 50%;
+  }
+}*/
