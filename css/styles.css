@@ -11335,3 +11335,59 @@ header.masthead-6 h1, header.masthead-6 .h1 {
 .card-group .card .card-footer{
   text-decoration: line-through;
 }
+
+/* notification */
+
+.activity-notification {
+  display: flex;
+  align-items: center;
+  background: white;
+  max-width: 400px;
+  border-radius: 5px;
+  box-shadow: 1px 5px 10px #27282238;
+  font-family: sans-serif;
+  font-size: 12px;
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  height: 55px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.2s ease-in-out;
+  animation: eb-fade-in-out 5s forwards;
+  animation-delay: 1s;
+  opacity: 0;
+  z-index:101
+}
+
+.notification-copy {
+  margin: 10px 10px
+}
+
+.activity-notification img {
+  margin-right: 20px;
+  border-radius: 5px 0px 0px 5px;
+  height: 100%
+}
+
+.activity-notification .bold {
+  font-weight: bold
+}
+
+.activity-notification:hover {
+  transform: translateY(-10px);
+  box-shadow: 5px 5px 20px #47282238
+}
+
+@keyframes eb-fade-in-out {
+  0%,100%{bottom: -100%;opacity: 0;}
+  10%,85%{bottom: 16px;opacity: 1;}
+}
+
+@media screen and (max-width: 340px) {
+  .activity-notification {
+    right: 15px;
+    line-height: 14px;
+    font-size: 10px;
+  }
+}
