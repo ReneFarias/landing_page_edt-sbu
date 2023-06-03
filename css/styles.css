@@ -11116,7 +11116,7 @@ header.masthead-5 h1, header.masthead-5 .h1 {
 header.masthead-6 {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(100, 100, 100, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/https://raw.githubusercontent.com/ReneFarias/landing_page_edt-sbu/main/assets/quedacabelofm.jpg");
+  background: linear-gradient(to bottom, rgba(100, 100, 100, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://raw.githubusercontent.com/ReneFarias/landing_page_edt-sbu/main/assets/fios-cabelo.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
