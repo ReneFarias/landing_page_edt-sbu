@@ -11354,7 +11354,7 @@ header.masthead-6 h1, header.masthead-6 .h1 {
   text-decoration: none;
   color: black;
   transition: all 0.2s ease-in-out;
-  animation: eb-fade-in-out 25s forwards;
+  animation: eb-fade-in-out 5s forwards;
   animation-delay: 1s;
   opacity: 0;
   z-index:101
