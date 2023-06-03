@@ -58,23 +58,32 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-
 /* notification */
 
-window.onload=function() {
-    var E = document.getElementsByClassName("item");
-    var m = E.length;
-    var n = parseInt(Math.random()*m);
-    for (var i=m-1;i>=0;i--) {
-        var e = E[i];
-        e.style.display='none';
-    }
-    E[n].style.display='block';
+setInterval(function() {
+  var E = document.getElementsByClassName("item");
+  var m = E.length;
+  var n = parseInt(Math.random()*m);
+  for (var i=m-1;i>=0;i--) {
+      var e = E[i];
+      e.style.display='none';
   }
+  E[n].style.display='block';
+},15000)
 
-  /* Assistindo Agora */
+/*
+setInterval(function(){
+    var E=document.getElementsByClassName("item");
+    var m=E.length;
+    var n=parseInt(Math.random()*m);for(var i=m-1;i>=0;i--){
+        var e=E[i];e.style.display='none';
+    }
+    E[n].style.display='';
+},12000);
+
+/* Assistindo Agora */
 
 let elemento = document.querySelector('#contador');
-let contador = 220;
-
-setInterval(() => elemento.innerHTML = contador++, 1500);
+		let contador = 220;
+		
+		setInterval(() => elemento.innerHTML = contador++, 1500);
